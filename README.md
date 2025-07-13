@@ -35,40 +35,41 @@
 
 ## 🧑‍💻 How to Run Locally
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/your-username/BellyBus_Food_Delivery_app.git
 cd BellyBus_Food_Delivery_app
 
-# Install backend dependencies
+## Install backend dependencies
 cd server
 npm install
 
-# Create .env file
+## Create .env file
 echo "PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 CLOUDINARY_URL=your_cloudinary_config" > .env
 
-# Start backend server
+## Start backend server
 npm run dev &
 
-# Install frontend dependencies
+## Install frontend dependencies
 cd ../client
 npm install
 
-# Start frontend
+## Start frontend
 npm start &
 
-# (Optional) If admin panel exists
+## (Optional) If admin panel exists
 cd ../admin
 npm install
 npm start &
 
 
-# Folder Structure
-Food_Delivery_App/
-├── client/         # React frontend
-├── server/         # Node + Express backend
-├── admin/          # Admin dashboard (optional)
-├── README.md
-└── server/.env     # Environment file
+## Folder Structure
+📦 Food_Delivery_App/
+├── 📁 client/         → React.js frontend for users
+├── 📁 server/         → Node.js + Express backend API
+│   └── 📄 .env        → Environment variables for backend
+├── 📁 admin/          → Admin dashboard (React or other)
+├── 📄 README.md       → Project overview and documentation
+
