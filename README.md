@@ -1,4 +1,4 @@
-# 🍔 BellyBus - Food Delivery Web App
+# 🍔 DineXpress  - Food Delivery Web App
 
 **BellyBus** is a full-featured **Food Delivery Web Application** developed using the powerful **MERN Stack** (MongoDB, Express.js, React.js, and Node.js). This project offers a seamless experience for customers to explore restaurants, place orders, and track deliveries — all in real-time.
 
